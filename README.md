@@ -6,7 +6,7 @@ The calculated stats are in the results folder.
 
 ## Available statistics
 The following stats are available:
-* [time series](results/timeseries.csv) An overview of cases by places over time.
+* [time series](results/timeseries.csv) An overview of cases per community over time.
 * [progression](results/progression.csv) Overal changes in the numbers
 * [numbers per province](results/numbersPerProvince.csv) Number of cases grouped by province
 * [places per province](results/placesPerProvince.csv) Number of communities per province that have at least one case
