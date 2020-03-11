@@ -1,5 +1,5 @@
 # ncov-stats
-Dutch stats on the 2020 Corona virus (SARS-NCOV2) spread based on [RIVM](https://www.rivm.nl/) data
+Dutch stats on the 2020 Corona virus (SARS-CoV-2) spread based on [RIVM](https://www.rivm.nl/) data
 
 RIVM source data is the data folder.
 The calculated stats are in the results folder.
