@@ -2,11 +2,16 @@ const Papa = require("papaparse");
 const fs = require("fs");
 const placeData = require("./TypedDataSet.json");
 const dates = [];
+const datadir="./data"
 
 const places = placeData.value.reduce(
   (map, obj) => ((map[obj.Naam_2.trim()] = obj.Naam_4.trim()), map),
   {}
 );
+
+// hacks because of spelling
+places['Súdwest Fryslân']='Friesland';
+places['BeekDaelen']='Limburg';
 
 const resultsByPlace = {};
 
@@ -14,10 +19,16 @@ function getData(file, date) {
   const csvData = fs.readFileSync(file, "utf8");
   const parsedData = Papa.parse(csvData, {
     header: true,
-    dynamicTyping: true
+    dynamicTyping: true,
+    transformHeader:(h)=> { 
+       return h.replace('﻿"Category"','Gemeente')
+    }
   }).data;
   parsedData.forEach(el => {
     if (el.Aantal !== null && el.Gemeente !== undefined) {
+      if (!places[el.Gemeente]){
+        console.log(`Geen provincie voor:${el.Gemeente}:`);
+      }
       resultsByPlace[el.Gemeente] = resultsByPlace[el.Gemeente] || {
         Gemeente: el.Gemeente,
         Provincie: places[el.Gemeente]
@@ -145,13 +156,21 @@ function writeResults(data, name) {
   fs.writeFile(`./results/${name}.json`, JSON.stringify(data), () => {});
 }
 
-fs.readdir("./data", (err, files) => {
+fs.readdir(datadir, (err, files) => {
+  const fileList=[];
   files.forEach(file => {
+    if (! file.match(/\.csv$/)) return;
     const rawDate = file.match(/\d+/)[0];
     const date = rawDate.replace(/(\d{2})(\d{2})(\d{4})/, "$1-$2-$3");
-    dates.push(date);
-    getData(`./data/${file}`, date);
+    const sortdate= rawDate.replace(/(\d{2})(\d{2})(\d{4})/, "$3-$2-$1");
+    fileList.push({sortdate,file,date});
   });
+  fileList.sort((a,b)=>(a.sortdate > b.sortdate ? 1:-1));
+  fileList.forEach( el => {
+    getData(`${datadir}/${el.file}`, el.date);
+    dates.push(el.date);
+  }
+  );
   const results = Object.values(resultsByPlace);
   writeResults(results, "timeseries");
   const npp = numbersPerProvince(results);
