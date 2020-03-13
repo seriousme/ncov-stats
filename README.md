@@ -13,5 +13,7 @@ The following stats are available:
 * [progression per province](results/progressionPerProvince.csv) Percentage of change per province over time
 * [stats on communities](results/stats.csv) Changes in number of communities reported to have cases.
 
+Note: people with unknown residence are not listed in the downloadable RIVM data, so the total here might differ a bit from the total reported in the news. 
+
 ## Code
 A [script](timeSeries.js) is used to calculate the stats from the source data. 
