@@ -11,7 +11,10 @@ const places = placeData.value.reduce(
 
 // hacks because of spelling
 places['Súdwest Fryslân']='Friesland';
-places['BeekDaelen']='Limburg';
+places['Bergen (L)']='Limburg';
+places['Bergen (NH)']='Noord-Holland';
+places['Hengelo (O)']='Overijssel';
+
 
 const resultsByPlace = {};
 
