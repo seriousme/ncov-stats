@@ -2,7 +2,7 @@ const Papa = require("papaparse");
 const fs = require("fs");
 const placeData = require("./TypedDataSet.json");
 const dates = [];
-const datadir="./data"
+const datadir = "./data"
 
 const places = placeData.value.reduce(
   (map, obj) => ((map[obj.Naam_2.trim()] = obj.Naam_4.trim()), map),
@@ -10,10 +10,10 @@ const places = placeData.value.reduce(
 );
 
 // hacks because of spelling
-places['Súdwest Fryslân']='Friesland';
-places['Bergen (L)']='Limburg';
-places['Bergen (NH)']='Noord-Holland';
-places['Hengelo (O)']='Overijssel';
+places['Súdwest Fryslân'] = 'Friesland';
+places['Bergen (L)'] = 'Limburg';
+places['Bergen (NH)'] = 'Noord-Holland';
+places['Hengelo (O)'] = 'Overijssel';
 
 
 const resultsByPlace = {};
@@ -23,13 +23,13 @@ function getData(file, date) {
   const parsedData = Papa.parse(csvData, {
     header: true,
     dynamicTyping: true,
-    transformHeader:(h)=> { 
-       return h.replace('﻿"Category"','Gemeente')
+    transformHeader: (h) => {
+      return h.replace('﻿"Category"', 'Gemeente')
     }
   }).data;
   parsedData.forEach(el => {
     if (el.Aantal !== null && el.Gemeente !== undefined) {
-      if (!places[el.Gemeente]){
+      if (!places[el.Gemeente]) {
         console.log(`Geen provincie voor:${el.Gemeente}:`);
       }
       resultsByPlace[el.Gemeente] = resultsByPlace[el.Gemeente] || {
@@ -111,6 +111,28 @@ function progressionPerProvince(numbersPerProvince) {
   return results;
 }
 
+function timeToDouble(data,key) {
+  const result = [];
+
+  data.forEach(el => {
+    let total;
+    const item={}
+    item[key]=el[key];
+    item.count=1;
+    dates.slice().reverse().forEach(current => {
+      if (typeof (total) === "undefined") {
+        total = el[current];
+        return;
+      }
+      if (el[current] && (total / el[current] < 2)) {
+        item.count++;
+      }
+    });
+    result.push(item);
+  });
+  return result;
+}
+
 function stats(data) {
   const results = [];
   let before = "";
@@ -155,21 +177,21 @@ function placesPerProvince(data) {
 }
 
 function writeResults(data, name) {
-  fs.writeFile(`./results/${name}.csv`, Papa.unparse(data), () => {});
-  fs.writeFile(`./results/${name}.json`, JSON.stringify(data), () => {});
+  fs.writeFile(`./results/${name}.csv`, Papa.unparse(data), () => { });
+  fs.writeFile(`./results/${name}.json`, JSON.stringify(data), () => { });
 }
 
 fs.readdir(datadir, (err, files) => {
-  const fileList=[];
+  const fileList = [];
   files.forEach(file => {
-    if (! file.match(/\.csv$/)) return;
+    if (!file.match(/\.csv$/)) return;
     const rawDate = file.match(/\d+/)[0];
     const date = rawDate.replace(/(\d{2})(\d{2})(\d{4})/, "$1-$2-$3");
-    const sortdate= rawDate.replace(/(\d{2})(\d{2})(\d{4})/, "$3-$2-$1");
-    fileList.push({sortdate,file,date});
+    const sortdate = rawDate.replace(/(\d{2})(\d{2})(\d{4})/, "$3-$2-$1");
+    fileList.push({ sortdate, file, date });
   });
-  fileList.sort((a,b)=>(a.sortdate > b.sortdate ? 1:-1));
-  fileList.forEach( el => {
+  fileList.sort((a, b) => (a.sortdate > b.sortdate ? 1 : -1));
+  fileList.forEach(el => {
     getData(`${datadir}/${el.file}`, el.date);
     dates.push(el.date);
   }
@@ -182,4 +204,5 @@ fs.readdir(datadir, (err, files) => {
   writeResults(stats(results), "stats");
   writeResults(progression(results), "progression");
   writeResults(progressionPerProvince(npp), "progressionPerProvince");
+  writeResults(timeToDouble(npp,'Provincie'),"time2doublePerProvince");
 });

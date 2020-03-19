@@ -1,359 +1,359 @@
-Gemeente,Provincie,03-03-2020,04-03-2020,05-03-2020,06-03-2020,07-03-2020,08-03-2020,09-03-2020,10-03-2020,11-03-2020,12-03-2020,13-03-2020,14-03-2020,15-03-2020,16-03-2020,17-03-2020
-Alphen aan den Rijn,Zuid-Holland,1,1,1,1,1,1,1,1,2,3,4,6,6,6,6
-Altena,Noord-Brabant,3,3,4,4,4,4,4,4,4,5,8,9,10,12,12
-Coevorden,Drenthe,2,2,3,3,3,7,9,11,11,11,11,11,11,11,11
-Delft,Zuid-Holland,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2
-Diemen,Noord-Holland,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2
-Eindhoven,Noord-Brabant,1,1,3,4,4,6,7,8,8,8,12,13,21,21,22
-Haarlem,Noord-Holland,1,1,1,1,1,2,2,1,1,1,4,4,4,6,7
-Helmond,Noord-Brabant,1,4,4,4,4,5,7,11,12,14,16,17,17,17,19
-Houten,Utrecht,1,1,9,9,13,13,13,13,13,13,13,13,13,13,13
-Loon op Zand,Noord-Brabant,4,5,5,5,7,7,7,7,7,6,7,7,7,7,8
-Oss,Noord-Brabant,1,1,1,1,1,1,1,1,2,3,3,4,5,11,14
-Rotterdam,Zuid-Holland,1,3,5,9,11,14,14,15,15,15,20,24,25,30,41
-Tilburg,Noord-Brabant,2,3,3,4,10,12,27,29,42,50,67,68,68,84,88
-Utrecht,Utrecht,2,2,6,8,11,13,13,14,18,25,26,30,38,48,60
-Amsterdam,Noord-Holland,,1,2,2,3,4,4,8,8,11,20,31,31,39,56
-Beverwijk,Noord-Holland,,1,2,2,3,4,4,4,4,5,5,5,5,5,6
-Blaricum,Noord-Holland,,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Gooise Meren,Noord-Holland,,1,1,2,2,2,2,2,3,3,3,4,4,4,9
-Hardinxveld-Giessendam,Zuid-Holland,,1,2,4,4,4,4,5,5,5,5,5,5,5,5
-Hoeksche Waard,Zuid-Holland,,1,1,1,2,2,2,2,2,1,1,1,2,4,6
-Zaltbommel,Gelderland,,1,1,1,1,1,1,1,1,1,1,1,1,1,3
-Best,Noord-Brabant,,,1,1,1,2,2,2,3,3,3,3,3,4,5
-Borne,Overijssel,,,1,1,2,3,3,3,3,2,3,3,3,3,3
-Culemborg,Gelderland,,,1,1,1,1,1,1,1,1,2,2,2,2,4
-De Bilt,Utrecht,,,2,3,6,6,6,6,10,11,11,11,12,13,15
-Dongen,Noord-Brabant,,,1,1,2,3,3,3,4,4,4,5,5,5,5
-Gemert-Bakel,Noord-Brabant,,,1,1,1,1,1,2,4,7,11,13,16,20,25
-Pijnacker-Nootdorp,Zuid-Holland,,,2,2,2,2,2,4,5,5,6,6,7,8,10
-Sint-Michielsgestel,Noord-Brabant,,,1,2,3,5,5,5,5,5,5,6,6,8,8
-Sittard-Geleen,Limburg,,,2,4,4,7,8,13,20,20,23,35,37,38,42
-Soest,Utrecht,,,4,6,7,7,7,8,8,8,8,8,8,10,11
-Stichtse Vecht,Utrecht,,,2,3,4,5,5,5,5,5,6,6,7,7,8
-Zeewolde,Flevoland,,,1,1,1,1,1,1,1,1,1,2,2,2,2
-Almere,Flevoland,,,,1,1,1,1,1,1,1,1,2,2,3,3
-Arnhem,Gelderland,,,,1,1,3,2,2,3,4,4,4,7,7,8
-Beekdaelen,Limburg,,,,1,2,2,4,5,8,8,8,9,12,13,15
-Beuningen,Gelderland,,,,1,1,5,3,3,3,3,3,4,4,5,6
-Breda,Noord-Brabant,,,,2,2,16,19,27,32,42,53,64,71,86,96
-Bronckhorst,Gelderland,,,,1,1,2,2,2,2,2,2,2,2,2,2
-Lansingerland,Zuid-Holland,,,,1,2,2,3,4,4,4,4,4,5,5,7
-Lingewaard,Gelderland,,,,1,2,2,2,2,2,2,2,3,3,3,3
-Maastricht,Limburg,,,,2,3,4,6,7,8,8,10,16,21,24,33
-Nijmegen,Gelderland,,,,1,2,2,3,3,4,6,8,9,12,17,31
-Oisterwijk,Noord-Brabant,,,,1,3,3,3,3,4,5,6,6,6,9,10
-Renkum,Gelderland,,,,1,1,5,5,5,7,7,7,7,8,8,8
-'s-Gravenhage,Zuid-Holland,,,,2,2,2,2,3,7,7,8,9,10,14,17
-Simpelveld,Limburg,,,,2,2,2,2,2,2,2,2,2,3,3,4
-Uden,Noord-Brabant,,,,2,6,7,12,13,18,21,25,28,33,43,49
-Utrechtse Heuvelrug,Utrecht,,,,1,1,2,2,2,2,2,2,2,2,3,5
-Waalre,Noord-Brabant,,,,1,1,1,1,1,1,1,1,1,1,1,1
-Waalwijk,Noord-Brabant,,,,1,3,5,5,5,6,6,9,8,8,10,11
-West Betuwe,Gelderland,,,,1,2,2,2,2,2,2,3,3,3,3,6
-West Maas en Waal,Gelderland,,,,1,1,1,1,1,1,2,2,2,3,3,3
-Westvoorne,Zuid-Holland,,,,1,1,1,1,1,1,1,1,2,3,3,3
-Wijk bij Duurstede,Utrecht,,,,1,1,1,1,1,1,2,2,2,3,3,4
-Woerden,Utrecht,,,,2,2,2,2,2,2,2,2,2,2,2,3
-Amstelveen,Noord-Holland,,,,,1,1,2,2,2,2,3,3,3,4,6
-Bernheze,Noord-Brabant,,,,,1,1,2,2,2,4,13,15,16,19,20
-Bloemendaal,Noord-Holland,,,,,1,1,1,1,1,1,1,1,1,1,3
-Dinkelland,Overijssel,,,,,1,2,2,2,2,1,3,4,4,5,5
-Hellendoorn,Overijssel,,,,,1,2,2,2,2,2,2,2,2,2,2
-Heusden,Noord-Brabant,,,,,1,1,1,1,2,2,4,4,4,4,4
-Landsmeer,Noord-Holland,,,,,1,,,,,2,2,2,3,3,3
-Leidschendam-Voorburg,Zuid-Holland,,,,,1,1,1,2,2,2,3,3,3,4,5
-Meierijstad,Noord-Brabant,,,,,1,4,10,11,13,18,25,30,34,42,49
-Oegstgeest,Zuid-Holland,,,,,1,1,1,1,2,2,2,4,4,4,4
-Ridderkerk,Zuid-Holland,,,,,1,1,1,1,1,1,1,1,1,1,1
-Schouwen-Duiveland,Zeeland,,,,,1,1,1,2,2,2,2,2,2,2,2
-'s-Hertogenbosch,Noord-Brabant,,,,,2,2,3,4,5,8,11,14,14,20,24
-Vijfheerenlanden,Utrecht,,,,,1,1,1,1,1,1,2,2,2,3,4
-Zaanstad,Noord-Holland,,,,,2,2,2,2,2,2,2,2,2,2,2
-Zeist,Utrecht,,,,,1,1,1,2,3,4,4,4,6,8,12
-Albrandswaard,Zuid-Holland,,,,,,1,1,1,1,1,1,1,1,2,3
-Almelo,Overijssel,,,,,,1,1,1,1,1,1,1,1,1,1
-Bergen op Zoom,Noord-Brabant,,,,,,1,1,1,1,1,1,1,4,4,5
-Boekel,Noord-Brabant,,,,,,1,1,2,7,8,11,12,12,14,14
-Deurne,Noord-Brabant,,,,,,1,1,1,3,3,3,3,4,5,8
-Emmen,Drenthe,,,,,,1,1,1,1,1,1,1,1,1,1
-Goirle,Noord-Brabant,,,,,,1,4,4,6,6,6,6,6,9,9
-Heemstede,Noord-Holland,,,,,,1,1,1,1,2,2,2,2,5,5
-Huizen,Noord-Holland,,,,,,1,1,1,2,1,1,1,1,1,1
-IJsselstein,Utrecht,,,,,,1,1,1,1,1,1,1,2,4,6
-Krimpenerwaard,Zuid-Holland,,,,,,1,1,1,3,3,3,3,4,4,4
-Landerd,Noord-Brabant,,,,,,2,2,1,2,2,4,5,5,10,14
-Maasdriel,Gelderland,,,,,,1,1,1,,,,,,,1
-Roermond,Limburg,,,,,,1,1,1,1,1,1,2,2,2,4
-Waterland,Noord-Holland,,,,,,1,1,1,1,1,1,1,2,3,3
-Wijchen,Gelderland,,,,,,1,1,1,1,2,3,3,4,5,6
-Zundert,Noord-Brabant,,,,,,1,1,1,2,2,3,3,3,3,4
-Zwolle,Overijssel,,,,,,1,1,1,2,2,2,3,4,6,8
-Etten-Leur,Noord-Brabant,,,,,,,1,3,5,5,6,7,8,10,12
-Haaren,Noord-Brabant,,,,,,,2,2,6,6,7,7,7,7,7
-Leudal,Limburg,,,,,,,1,2,3,4,4,6,6,7,8
-Neder-Betuwe,Gelderland,,,,,,,1,1,1,1,3,3,4,4,4
-Noordwijk,Zuid-Holland,,,,,,,2,2,2,2,2,2,2,2,2
-Tiel,Gelderland,,,,,,,1,1,1,2,2,2,3,4,4
-Tubbergen,Overijssel,,,,,,,1,1,1,1,1,1,1,1,1
-Veldhoven,Noord-Brabant,,,,,,,1,1,1,1,1,1,1,1,1
-Venlo,Limburg,,,,,,,1,1,1,2,2,3,4,6,8
-Voorst,Gelderland,,,,,,,1,1,1,1,1,1,1,1,1
-Vught,Noord-Brabant,,,,,,,1,1,1,2,2,2,2,3,6
-Aalsmeer,Noord-Holland,,,,,,,,2,2,2,3,3,3,3,3
-Alkmaar,Noord-Holland,,,,,,,,1,1,1,1,1,1,2,2
-Berg en Dal,Gelderland,,,,,,,,1,3,3,5,6,6,10,14
-Ermelo,Gelderland,,,,,,,,1,1,3,4,5,7,8,8
-Goes,Zeeland,,,,,,,,1,2,2,2,2,2,2,2
-Gouda,Zuid-Holland,,,,,,,,1,2,2,2,2,3,4,5
-Leiden,Zuid-Holland,,,,,,,,1,1,1,4,4,4,8,8
-"Nuenen, Gerwen en Nederwetten",Noord-Brabant,,,,,,,,1,1,1,1,1,1,1,1
-Opsterland,Friesland,,,,,,,,2,2,2,2,2,2,2,2
-Peel en Maas,Limburg,,,,,,,,1,3,4,8,10,14,19,31
-Rheden,Gelderland,,,,,,,,1,1,1,1,1,1,1,2
-Schagen,Noord-Holland,,,,,,,,1,1,1,2,3,4,4,4
-Waddinxveen,Zuid-Holland,,,,,,,,1,1,1,1,1,1,1,1
-Amersfoort,Utrecht,,,,,,,,,2,4,4,4,10,18,21
-Apeldoorn,Gelderland,,,,,,,,,1,2,2,3,3,7,7
-Bergeijk,Noord-Brabant,,,,,,,,,1,1,1,1,1,1,1
-Borsele,Zeeland,,,,,,,,,1,1,1,1,1,2,2
-Cranendonck,Noord-Brabant,,,,,,,,,1,1,2,2,2,2,5
-Cuijk,Noord-Brabant,,,,,,,,,1,1,2,2,2,2,2
-Den Helder,Noord-Holland,,,,,,,,,1,1,1,1,1,1,1
-Drimmelen,Noord-Brabant,,,,,,,,,1,3,5,5,5,7,11
-Enschede,Overijssel,,,,,,,,,1,3,3,3,3,3,3
-Geertruidenberg,Noord-Brabant,,,,,,,,,1,1,1,1,1,3,5
-Heerlen,Limburg,,,,,,,,,1,2,2,4,5,6,8
-Heeze-Leende,Noord-Brabant,,,,,,,,,1,1,1,1,1,2,3
-Hilvarenbeek,Noord-Brabant,,,,,,,,,1,3,5,5,5,4,4
-Langedijk,Noord-Holland,,,,,,,,,1,1,3,3,4,4,4
-Lelystad,Flevoland,,,,,,,,,1,1,3,5,7,8,10
-Purmerend,Noord-Holland,,,,,,,,,1,1,2,2,2,2,2
-Roosendaal,Noord-Brabant,,,,,,,,,1,1,2,2,5,6,6
-Smallingerland,Friesland,,,,,,,,,1,1,1,2,3,3,3
-Son en Breugel,Noord-Brabant,,,,,,,,,1,1,2,2,2,4,4
-Stein,Limburg,,,,,,,,,1,1,1,3,3,3,3
-Veere,Zeeland,,,,,,,,,1,1,1,1,1,1,1
-Woudenberg,Utrecht,,,,,,,,,1,1,1,1,1,1,1
-Barendrecht,Zuid-Holland,,,,,,,,,,1,1,1,3,3,3
-Bodegraven-Reeuwijk,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1
-Boxtel,Noord-Brabant,,,,,,,,,,1,1,2,2,3,5
-Buren,Gelderland,,,,,,,,,,1,2,2,2,4,4
-De Fryske Marren,Friesland,,,,,,,,,,1,2,2,3,3,3
-Eersel,Noord-Brabant,,,,,,,,,,1,1,2,2,2,3
-Geldrop-Mierlo,Noord-Brabant,,,,,,,,,,1,2,2,2,3,3
-Groningen,Groningen,,,,,,,,,,2,3,3,6,7,7
-Harderwijk,Gelderland,,,,,,,,,,2,2,2,2,4,4
-Hellevoetsluis,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1
-Hoogeveen,Drenthe,,,,,,,,,,1,1,2,2,2,2
-Katwijk,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1
-Krimpen aan den IJssel,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1
-Landgraaf,Limburg,,,,,,,,,,1,2,4,4,4,4
-Leeuwarden,Friesland,,,,,,,,,,1,1,1,1,2,3
-Nieuwkoop,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1
-Nissewaard,Zuid-Holland,,,,,,,,,,1,1,1,1,1,3
-Oosterhout,Noord-Brabant,,,,,,,,,,1,3,4,5,6,8
-Pekela,Groningen,,,,,,,,,,1,1,1,1,1,1
-Raalte,Overijssel,,,,,,,,,,1,1,1,1,2,3
-Reimerswaal,Zeeland,,,,,,,,,,1,1,1,1,2,2
-Súdwest Fryslân,Friesland,,,,,,,,,,1,,,,,
-Veenendaal,Utrecht,,,,,,,,,,1,1,1,1,1,1
-Velsen,Noord-Holland,,,,,,,,,,1,1,1,1,4,4
-Vlaardingen,Zuid-Holland,,,,,,,,,,1,1,1,1,1,2
-Vlissingen,Zeeland,,,,,,,,,,2,2,2,2,3,4
-Boxmeer,Noord-Brabant,,,,,,,,,,,1,1,1,1,1
-Dordrecht,Zuid-Holland,,,,,,,,,,,1,1,1,1,4
-Dronten,Flevoland,,,,,,,,,,,2,3,6,7,7
-Druten,Gelderland,,,,,,,,,,,1,3,5,5,5
-Duiven,Gelderland,,,,,,,,,,,1,1,1,1,1
-Elburg,Gelderland,,,,,,,,,,,1,1,1,1,1
-Gennep,Limburg,,,,,,,,,,,1,1,1,1,1
-Gilze en Rijen,Noord-Brabant,,,,,,,,,,,1,1,1,1,1
-Goeree-Overflakkee,Zuid-Holland,,,,,,,,,,,1,1,2,4,5
-Heemskerk,Noord-Holland,,,,,,,,,,,1,1,1,2,2
-Heiloo,Noord-Holland,,,,,,,,,,,2,2,2,3,3
-Horst aan de Maas,Limburg,,,,,,,,,,,2,3,3,5,8
-Laarbeek,Noord-Brabant,,,,,,,,,,,1,1,1,1,1
-Moerdijk,Noord-Brabant,,,,,,,,,,,1,1,1,1,1
-Nederweert,Limburg,,,,,,,,,,,1,3,3,3,5
-Nunspeet,Gelderland,,,,,,,,,,,1,1,1,2,2
-Oldebroek,Gelderland,,,,,,,,,,,1,1,1,2,2
-Súdwest-Fryslân,Friesland,,,,,,,,,,,1,1,1,1,1
-Wassenaar,Zuid-Holland,,,,,,,,,,,1,2,2,3,3
-Zwartewaterland,Overijssel,,,,,,,,,,,2,2,2,2,4
-Alphen-Chaam,Noord-Brabant,,,,,,,,,,,,1,1,2,3
-Bergen (NH.),Noord-Holland,,,,,,,,,,,,1,1,1,
-Bladel,Noord-Brabant,,,,,,,,,,,,1,1,1,1
-Castricum,Noord-Holland,,,,,,,,,,,,4,5,5,5
-De Wolden,Drenthe,,,,,,,,,,,,1,1,1,1
-Eijsden-Margraten,Limburg,,,,,,,,,,,,1,3,4,4
-Kerkrade,Limburg,,,,,,,,,,,,1,2,2,3
-Koggenland,Noord-Holland,,,,,,,,,,,,1,1,1,1
-Maasgouw,Limburg,,,,,,,,,,,,1,2,2,3
-Maassluis,Zuid-Holland,,,,,,,,,,,,1,1,1,1
-Noordoostpolder,Flevoland,,,,,,,,,,,,2,2,2,2
-Oldenzaal,Overijssel,,,,,,,,,,,,1,1,1,1
-Ommen,Overijssel,,,,,,,,,,,,1,1,1,1
-Overbetuwe,Gelderland,,,,,,,,,,,,4,6,8,9
-Sint Anthonis,Noord-Brabant,,,,,,,,,,,,2,2,3,4
-Someren,Noord-Brabant,,,,,,,,,,,,1,1,1,2
-Staphorst,Overijssel,,,,,,,,,,,,1,1,1,1
-Terneuzen,Zeeland,,,,,,,,,,,,1,1,1,2
-Zandvoort,Noord-Holland,,,,,,,,,,,,1,1,1,1
-Zwijndrecht,Zuid-Holland,,,,,,,,,,,,2,3,3,4
-Asten,Noord-Brabant,,,,,,,,,,,,,1,1,2
-Barneveld,Gelderland,,,,,,,,,,,,,2,3,4
-Beek,Limburg,,,,,,,,,,,,,3,3,3
-Dalfsen,Overijssel,,,,,,,,,,,,,1,1,1
-Deventer,Overijssel,,,,,,,,,,,,,1,2,4
-Doesburg,Gelderland,,,,,,,,,,,,,1,1,1
-Ede,Gelderland,,,,,,,,,,,,,1,2,2
-Gulpen-Wittem,Limburg,,,,,,,,,,,,,1,2,2
-Haaksbergen,Overijssel,,,,,,,,,,,,,1,1,1
-Haarlemmermeer,Noord-Holland,,,,,,,,,,,,,1,2,4
-Heerhugowaard,Noord-Holland,,,,,,,,,,,,,1,1,1
-Heumen,Gelderland,,,,,,,,,,,,,2,2,3
-Hof van Twente,Overijssel,,,,,,,,,,,,,1,1,1
-Midden-Groningen,Groningen,,,,,,,,,,,,,1,1,1
-Mill en Sint Hubert,Noord-Brabant,,,,,,,,,,,,,1,1,1
-Molenlanden,Zuid-Holland,,,,,,,,,,,,,1,2,3
-Nieuwegein,Utrecht,,,,,,,,,,,,,1,1,3
-Oudewater,Utrecht,,,,,,,,,,,,,1,1,1
-Rozendaal,Gelderland,,,,,,,,,,,,,1,1,1
-Rucphen,Noord-Brabant,,,,,,,,,,,,,1,1,1
-Schiedam,Zuid-Holland,,,,,,,,,,,,,1,1,1
-Sluis,Zeeland,,,,,,,,,,,,,1,2,2
-Steenbergen,Noord-Brabant,,,,,,,,,,,,,1,2,2
-Tholen,Zeeland,,,,,,,,,,,,,1,1,1
-Westerkwartier,Groningen,,,,,,,,,,,,,1,1,1
-Westland,Zuid-Holland,,,,,,,,,,,,,1,1,3
-De Ronde Venen,Utrecht,,,,,,,,,,,,,,2,2
-Enkhuizen,Noord-Holland,,,,,,,,,,,,,,1,1
-Epe,Gelderland,,,,,,,,,,,,,,2,2
-Halderberge,Noord-Brabant,,,,,,,,,,,,,,2,2
-Harlingen,Friesland,,,,,,,,,,,,,,1,1
-Heerde,Gelderland,,,,,,,,,,,,,,2,3
-Hengelo,Overijssel,,,,,,,,,,,,,,3,
-Hoorn,Noord-Holland,,,,,,,,,,,,,,1,1
-Leiderdorp,Zuid-Holland,,,,,,,,,,,,,,1,1
-Leusden,Utrecht,,,,,,,,,,,,,,1,1
-Lopik,Utrecht,,,,,,,,,,,,,,1,2
-Meerssen,Limburg,,,,,,,,,,,,,,1,1
-Middelburg,Zeeland,,,,,,,,,,,,,,1,1
-Nijkerk,Gelderland,,,,,,,,,,,,,,1,2
-Noordenveld,Drenthe,,,,,,,,,,,,,,1,1
-Oirschot,Noord-Brabant,,,,,,,,,,,,,,1,1
-Oude IJsselstreek,Gelderland,,,,,,,,,,,,,,1,2
-Putten,Gelderland,,,,,,,,,,,,,,2,2
-Rijswijk,Zuid-Holland,,,,,,,,,,,,,,1,2
-Stede Broec,Noord-Holland,,,,,,,,,,,,,,1,1
-Teylingen,Zuid-Holland,,,,,,,,,,,,,,1,2
-Tytsjerksteradiel,Friesland,,,,,,,,,,,,,,1,1
-Valkenburg aan de Geul,Limburg,,,,,,,,,,,,,,1,2
-Aa en Hunze,Drenthe,,,,,,,,,,,,,,,0
-Aalten,Gelderland,,,,,,,,,,,,,,,0
-Achtkarspelen,Friesland,,,,,,,,,,,,,,,0
-Alblasserdam,Zuid-Holland,,,,,,,,,,,,,,,1
-Ameland,Friesland,,,,,,,,,,,,,,,0
-Appingedam,Groningen,,,,,,,,,,,,,,,0
-Assen,Drenthe,,,,,,,,,,,,,,,0
-Baarle-Nassau,Noord-Brabant,,,,,,,,,,,,,,,0
-Baarn,Utrecht,,,,,,,,,,,,,,,0
-Beemster,Noord-Holland,,,,,,,,,,,,,,,0
-Beesel,Limburg,,,,,,,,,,,,,,,0
-Bergen (L),Limburg,,,,,,,,,,,,,,,0
-Bergen (NH),Noord-Holland,,,,,,,,,,,,,,,1
-Berkelland,Gelderland,,,,,,,,,,,,,,,0
-Borger-Odoorn,Drenthe,,,,,,,,,,,,,,,0
-Brielle,Zuid-Holland,,,,,,,,,,,,,,,0
-Brummen,Gelderland,,,,,,,,,,,,,,,0
-Brunssum,Limburg,,,,,,,,,,,,,,,2
-Bunnik,Utrecht,,,,,,,,,,,,,,,0
-Bunschoten,Utrecht,,,,,,,,,,,,,,,0
-Capelle aan den IJssel,Zuid-Holland,,,,,,,,,,,,,,,1
-Dantumadiel,Friesland,,,,,,,,,,,,,,,0
-Delfzijl,Groningen,,,,,,,,,,,,,,,0
-Doetinchem,Gelderland,,,,,,,,,,,,,,,0
-Drechterland,Noord-Holland,,,,,,,,,,,,,,,0
-Echt-Susteren,Limburg,,,,,,,,,,,,,,,2
-Edam-Volendam,Noord-Holland,,,,,,,,,,,,,,,0
-Eemnes,Utrecht,,,,,,,,,,,,,,,0
-Gorinchem,Zuid-Holland,,,,,,,,,,,,,,,0
-Grave,Noord-Brabant,,,,,,,,,,,,,,,0
-Hardenberg,Overijssel,,,,,,,,,,,,,,,0
-Hattem,Gelderland,,,,,,,,,,,,,,,0
-Heerenveen,Friesland,,,,,,,,,,,,,,,0
-Hendrik-Ido-Ambacht,Zuid-Holland,,,,,,,,,,,,,,,0
-Hengelo (O),Overijssel,,,,,,,,,,,,,,,3
-Het Hogeland,Groningen,,,,,,,,,,,,,,,0
-Hillegom,Zuid-Holland,,,,,,,,,,,,,,,0
-Hilversum,Noord-Holland,,,,,,,,,,,,,,,3
-Hollands Kroon,Noord-Holland,,,,,,,,,,,,,,,0
-Hulst,Zeeland,,,,,,,,,,,,,,,0
-Kaag en Braassem,Zuid-Holland,,,,,,,,,,,,,,,0
-Kampen,Overijssel,,,,,,,,,,,,,,,1
-Kapelle,Zeeland,,,,,,,,,,,,,,,1
-Laren,Noord-Holland,,,,,,,,,,,,,,,0
-Lisse,Zuid-Holland,,,,,,,,,,,,,,,0
-Lochem,Gelderland,,,,,,,,,,,,,,,0
-Loppersum,Groningen,,,,,,,,,,,,,,,0
-Losser,Overijssel,,,,,,,,,,,,,,,0
-Medemblik,Noord-Holland,,,,,,,,,,,,,,,0
-Meppel,Drenthe,,,,,,,,,,,,,,,0
-Midden-Delfland,Zuid-Holland,,,,,,,,,,,,,,,0
-Midden-Drenthe,Drenthe,,,,,,,,,,,,,,,0
-Montferland,Gelderland,,,,,,,,,,,,,,,0
-Montfoort,Utrecht,,,,,,,,,,,,,,,0
-Mook en Middelaar,Limburg,,,,,,,,,,,,,,,0
-Noardeast-Fryslân,Friesland,,,,,,,,,,,,,,,0
-Noord-Beveland,Zeeland,,,,,,,,,,,,,,,0
-Oldambt,Groningen,,,,,,,,,,,,,,,0
-Olst-Wijhe,Overijssel,,,,,,,,,,,,,,,0
-Oost Gelre,Gelderland,,,,,,,,,,,,,,,0
-Ooststellingwerf,Friesland,,,,,,,,,,,,,,,0
-Oostzaan,Noord-Holland,,,,,,,,,,,,,,,1
-Opmeer,Noord-Holland,,,,,,,,,,,,,,,0
-Ouder-Amstel,Noord-Holland,,,,,,,,,,,,,,,2
-Papendrecht,Zuid-Holland,,,,,,,,,,,,,,,0
-Renswoude,Utrecht,,,,,,,,,,,,,,,0
-Reusel-De Mierden,Noord-Brabant,,,,,,,,,,,,,,,0
-Rhenen,Utrecht,,,,,,,,,,,,,,,0
-Rijssen-Holten,Overijssel,,,,,,,,,,,,,,,0
-Roerdalen,Limburg,,,,,,,,,,,,,,,0
-Scherpenzeel,Gelderland,,,,,,,,,,,,,,,0
-Schiermonnikoog,Friesland,,,,,,,,,,,,,,,0
-Sliedrecht,Zuid-Holland,,,,,,,,,,,,,,,1
-Stadskanaal,Groningen,,,,,,,,,,,,,,,0
-Steenwijkerland,Overijssel,,,,,,,,,,,,,,,1
-Terschelling,Friesland,,,,,,,,,,,,,,,0
-Texel,Noord-Holland,,,,,,,,,,,,,,,0
-Twenterand,Overijssel,,,,,,,,,,,,,,,0
-Tynaarlo,Drenthe,,,,,,,,,,,,,,,1
-Uitgeest,Noord-Holland,,,,,,,,,,,,,,,0
-Uithoorn,Noord-Holland,,,,,,,,,,,,,,,0
-Urk,Flevoland,,,,,,,,,,,,,,,0
-Vaals,Limburg,,,,,,,,,,,,,,,0
-Valkenswaard,Noord-Brabant,,,,,,,,,,,,,,,0
-Veendam,Groningen,,,,,,,,,,,,,,,0
-Venray,Limburg,,,,,,,,,,,,,,,0
-Vlieland,Friesland,,,,,,,,,,,,,,,0
-Voerendaal,Limburg,,,,,,,,,,,,,,,1
-Voorschoten,Zuid-Holland,,,,,,,,,,,,,,,0
-Waadhoeke,Friesland,,,,,,,,,,,,,,,0
-Wageningen,Gelderland,,,,,,,,,,,,,,,1
-Weert,Limburg,,,,,,,,,,,,,,,0
-Weesp,Noord-Holland,,,,,,,,,,,,,,,0
-Westerveld,Drenthe,,,,,,,,,,,,,,,0
-Westervoort,Gelderland,,,,,,,,,,,,,,,0
-Westerwolde,Groningen,,,,,,,,,,,,,,,0
-Weststellingwerf,Friesland,,,,,,,,,,,,,,,0
-Wierden,Overijssel,,,,,,,,,,,,,,,0
-Wijdemeren,Noord-Holland,,,,,,,,,,,,,,,0
-Winterswijk,Gelderland,,,,,,,,,,,,,,,0
-Woensdrecht,Noord-Brabant,,,,,,,,,,,,,,,0
-Wormerland,Noord-Holland,,,,,,,,,,,,,,,0
-Zevenaar,Gelderland,,,,,,,,,,,,,,,0
-Zoetermeer,Zuid-Holland,,,,,,,,,,,,,,,0
-Zoeterwoude,Zuid-Holland,,,,,,,,,,,,,,,0
-Zuidplas,Zuid-Holland,,,,,,,,,,,,,,,0
-Zutphen,Gelderland,,,,,,,,,,,,,,,1
+Gemeente,Provincie,03-03-2020,04-03-2020,05-03-2020,06-03-2020,07-03-2020,08-03-2020,09-03-2020,10-03-2020,11-03-2020,12-03-2020,13-03-2020,14-03-2020,15-03-2020,16-03-2020,17-03-2020,18-03-2020,19-03-2020
+Alphen aan den Rijn,Zuid-Holland,1,1,1,1,1,1,1,1,2,3,4,6,6,6,6,9,10
+Altena,Noord-Brabant,3,3,4,4,4,4,4,4,4,5,8,9,10,12,12,15,19
+Coevorden,Drenthe,2,2,3,3,3,7,9,11,11,11,11,11,11,11,11,12,12
+Delft,Zuid-Holland,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,4,5
+Diemen,Noord-Holland,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+Eindhoven,Noord-Brabant,1,1,3,4,4,6,7,8,8,8,12,13,21,21,22,23,24
+Haarlem,Noord-Holland,1,1,1,1,1,2,2,1,1,1,4,4,4,6,7,7,10
+Helmond,Noord-Brabant,1,4,4,4,4,5,7,11,12,14,16,17,17,17,19,20,22
+Houten,Utrecht,1,1,9,9,13,13,13,13,13,13,13,13,13,13,13,14,17
+Loon op Zand,Noord-Brabant,4,5,5,5,7,7,7,7,7,6,7,7,7,7,8,9,11
+Oss,Noord-Brabant,1,1,1,1,1,1,1,1,2,3,3,4,5,11,14,20,26
+Rotterdam,Zuid-Holland,1,3,5,9,11,14,14,15,15,15,20,24,25,30,41,58,81
+Tilburg,Noord-Brabant,2,3,3,4,10,12,27,29,42,50,67,68,68,84,88,95,119
+Utrecht,Utrecht,2,2,6,8,11,13,13,14,18,25,26,30,38,48,60,69,83
+Amsterdam,Noord-Holland,,1,2,2,3,4,4,8,8,11,20,31,31,39,56,61,85
+Beverwijk,Noord-Holland,,1,2,2,3,4,4,4,4,5,5,5,5,5,6,6,6
+Blaricum,Noord-Holland,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2
+Gooise Meren,Noord-Holland,,1,1,2,2,2,2,2,3,3,3,4,4,4,9,9,10
+Hardinxveld-Giessendam,Zuid-Holland,,1,2,4,4,4,4,5,5,5,5,5,5,5,5,5,5
+Hoeksche Waard,Zuid-Holland,,1,1,1,2,2,2,2,2,1,1,1,2,4,6,8,12
+Zaltbommel,Gelderland,,1,1,1,1,1,1,1,1,1,1,1,1,1,3,3,3
+Best,Noord-Brabant,,,1,1,1,2,2,2,3,3,3,3,3,4,5,6,6
+Borne,Overijssel,,,1,1,2,3,3,3,3,2,3,3,3,3,3,3,3
+Culemborg,Gelderland,,,1,1,1,1,1,1,1,1,2,2,2,2,4,4,4
+De Bilt,Utrecht,,,2,3,6,6,6,6,10,11,11,11,12,13,15,16,16
+Dongen,Noord-Brabant,,,1,1,2,3,3,3,4,4,4,5,5,5,5,5,5
+Gemert-Bakel,Noord-Brabant,,,1,1,1,1,1,2,4,7,11,13,16,20,25,26,31
+Pijnacker-Nootdorp,Zuid-Holland,,,2,2,2,2,2,4,5,5,6,6,7,8,10,11,11
+Sint-Michielsgestel,Noord-Brabant,,,1,2,3,5,5,5,5,5,5,6,6,8,8,10,10
+Sittard-Geleen,Limburg,,,2,4,4,7,8,13,20,20,23,35,37,38,42,51,51
+Soest,Utrecht,,,4,6,7,7,7,8,8,8,8,8,8,10,11,12,13
+Stichtse Vecht,Utrecht,,,2,3,4,5,5,5,5,5,6,6,7,7,8,9,10
+Zeewolde,Flevoland,,,1,1,1,1,1,1,1,1,1,2,2,2,2,3,3
+Almere,Flevoland,,,,1,1,1,1,1,1,1,1,2,2,3,3,4,5
+Arnhem,Gelderland,,,,1,1,3,2,2,3,4,4,4,7,7,8,9,10
+Beekdaelen,Limburg,,,,1,2,2,4,5,8,8,8,9,12,13,15,18,18
+Beuningen,Gelderland,,,,1,1,5,3,3,3,3,3,4,4,5,6,6,6
+Breda,Noord-Brabant,,,,2,2,16,19,27,32,42,53,64,71,86,96,105,113
+Bronckhorst,Gelderland,,,,1,1,2,2,2,2,2,2,2,2,2,2,2,3
+Lansingerland,Zuid-Holland,,,,1,2,2,3,4,4,4,4,4,5,5,7,10,13
+Lingewaard,Gelderland,,,,1,2,2,2,2,2,2,2,3,3,3,3,4,5
+Maastricht,Limburg,,,,2,3,4,6,7,8,8,10,16,21,24,33,41,42
+Nijmegen,Gelderland,,,,1,2,2,3,3,4,6,8,9,12,17,31,41,48
+Oisterwijk,Noord-Brabant,,,,1,3,3,3,3,4,5,6,6,6,9,10,10,10
+Renkum,Gelderland,,,,1,1,5,5,5,7,7,7,7,8,8,8,8,8
+'s-Gravenhage,Zuid-Holland,,,,2,2,2,2,3,7,7,8,9,10,14,17,21,27
+Simpelveld,Limburg,,,,2,2,2,2,2,2,2,2,2,3,3,4,5,5
+Uden,Noord-Brabant,,,,2,6,7,12,13,18,21,25,28,33,43,49,53,60
+Utrechtse Heuvelrug,Utrecht,,,,1,1,2,2,2,2,2,2,2,2,3,5,6,8
+Waalre,Noord-Brabant,,,,1,1,1,1,1,1,1,1,1,1,1,1,2,2
+Waalwijk,Noord-Brabant,,,,1,3,5,5,5,6,6,9,8,8,10,11,12,13
+West Betuwe,Gelderland,,,,1,2,2,2,2,2,2,3,3,3,3,6,6,8
+West Maas en Waal,Gelderland,,,,1,1,1,1,1,1,2,2,2,3,3,3,3,3
+Westvoorne,Zuid-Holland,,,,1,1,1,1,1,1,1,1,2,3,3,3,3,3
+Wijk bij Duurstede,Utrecht,,,,1,1,1,1,1,1,2,2,2,3,3,4,4,4
+Woerden,Utrecht,,,,2,2,2,2,2,2,2,2,2,2,2,3,4,4
+Amstelveen,Noord-Holland,,,,,1,1,2,2,2,2,3,3,3,4,6,7,13
+Bernheze,Noord-Brabant,,,,,1,1,2,2,2,4,13,15,16,19,20,26,30
+Bloemendaal,Noord-Holland,,,,,1,1,1,1,1,1,1,1,1,1,3,3,3
+Dinkelland,Overijssel,,,,,1,2,2,2,2,1,3,4,4,5,5,6,8
+Hellendoorn,Overijssel,,,,,1,2,2,2,2,2,2,2,2,2,2,2,2
+Heusden,Noord-Brabant,,,,,1,1,1,1,2,2,4,4,4,4,4,5,6
+Landsmeer,Noord-Holland,,,,,1,,,,,2,2,2,3,3,3,3,3
+Leidschendam-Voorburg,Zuid-Holland,,,,,1,1,1,2,2,2,3,3,3,4,5,6,6
+Meierijstad,Noord-Brabant,,,,,1,4,10,11,13,18,25,30,34,42,49,60,72
+Oegstgeest,Zuid-Holland,,,,,1,1,1,1,2,2,2,4,4,4,4,4,5
+Ridderkerk,Zuid-Holland,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1
+Schouwen-Duiveland,Zeeland,,,,,1,1,1,2,2,2,2,2,2,2,2,2,2
+'s-Hertogenbosch,Noord-Brabant,,,,,2,2,3,4,5,8,11,14,14,20,24,30,35
+Vijfheerenlanden,Utrecht,,,,,1,1,1,1,1,1,2,2,2,3,4,4,7
+Zaanstad,Noord-Holland,,,,,2,2,2,2,2,2,2,2,2,2,2,2,4
+Zeist,Utrecht,,,,,1,1,1,2,3,4,4,4,6,8,12,12,12
+Albrandswaard,Zuid-Holland,,,,,,1,1,1,1,1,1,1,1,2,3,4,4
+Almelo,Overijssel,,,,,,1,1,1,1,1,1,1,1,1,1,1,2
+Bergen op Zoom,Noord-Brabant,,,,,,1,1,1,1,1,1,1,4,4,5,5,6
+Boekel,Noord-Brabant,,,,,,1,1,2,7,8,11,12,12,14,14,19,20
+Deurne,Noord-Brabant,,,,,,1,1,1,3,3,3,3,4,5,8,8,10
+Emmen,Drenthe,,,,,,1,1,1,1,1,1,1,1,1,1,2,3
+Goirle,Noord-Brabant,,,,,,1,4,4,6,6,6,6,6,9,9,9,11
+Heemstede,Noord-Holland,,,,,,1,1,1,1,2,2,2,2,5,5,5,5
+Huizen,Noord-Holland,,,,,,1,1,1,2,1,1,1,1,1,1,2,3
+IJsselstein,Utrecht,,,,,,1,1,1,1,1,1,1,2,4,6,7,8
+Krimpenerwaard,Zuid-Holland,,,,,,1,1,1,3,3,3,3,4,4,4,4,5
+Landerd,Noord-Brabant,,,,,,2,2,1,2,2,4,5,5,10,14,16,18
+Maasdriel,Gelderland,,,,,,1,1,1,,,,,,,1,1,1
+Roermond,Limburg,,,,,,1,1,1,1,1,1,2,2,2,4,6,13
+Waterland,Noord-Holland,,,,,,1,1,1,1,1,1,1,2,3,3,4,7
+Wijchen,Gelderland,,,,,,1,1,1,1,2,3,3,4,5,6,8,8
+Zundert,Noord-Brabant,,,,,,1,1,1,2,2,3,3,3,3,4,6,6
+Zwolle,Overijssel,,,,,,1,1,1,2,2,2,3,4,6,8,12,16
+Etten-Leur,Noord-Brabant,,,,,,,1,3,5,5,6,7,8,10,12,13,14
+Haaren,Noord-Brabant,,,,,,,2,2,6,6,7,7,7,7,7,9,9
+Leudal,Limburg,,,,,,,1,2,3,4,4,6,6,7,8,11,13
+Neder-Betuwe,Gelderland,,,,,,,1,1,1,1,3,3,4,4,4,4,4
+Noordwijk,Zuid-Holland,,,,,,,2,2,2,2,2,2,2,2,2,2,3
+Tiel,Gelderland,,,,,,,1,1,1,2,2,2,3,4,4,4,4
+Tubbergen,Overijssel,,,,,,,1,1,1,1,1,1,1,1,1,1,3
+Veldhoven,Noord-Brabant,,,,,,,1,1,1,1,1,1,1,1,1,1,2
+Venlo,Limburg,,,,,,,1,1,1,2,2,3,4,6,8,12,21
+Voorst,Gelderland,,,,,,,1,1,1,1,1,1,1,1,1,1,1
+Vught,Noord-Brabant,,,,,,,1,1,1,2,2,2,2,3,6,7,8
+Aalsmeer,Noord-Holland,,,,,,,,2,2,2,3,3,3,3,3,3,4
+Alkmaar,Noord-Holland,,,,,,,,1,1,1,1,1,1,2,2,5,9
+Berg en Dal,Gelderland,,,,,,,,1,3,3,5,6,6,10,14,14,18
+Ermelo,Gelderland,,,,,,,,1,1,3,4,5,7,8,8,8,8
+Goes,Zeeland,,,,,,,,1,2,2,2,2,2,2,2,3,3
+Gouda,Zuid-Holland,,,,,,,,1,2,2,2,2,3,4,5,7,9
+Leiden,Zuid-Holland,,,,,,,,1,1,1,4,4,4,8,8,11,12
+"Nuenen, Gerwen en Nederwetten",Noord-Brabant,,,,,,,,1,1,1,1,1,1,1,1,1,1
+Opsterland,Friesland,,,,,,,,2,2,2,2,2,2,2,2,2,2
+Peel en Maas,Limburg,,,,,,,,1,3,4,8,10,14,19,31,36,41
+Rheden,Gelderland,,,,,,,,1,1,1,1,1,1,1,2,3,4
+Schagen,Noord-Holland,,,,,,,,1,1,1,2,3,4,4,4,5,6
+Waddinxveen,Zuid-Holland,,,,,,,,1,1,1,1,1,1,1,1,1,3
+Amersfoort,Utrecht,,,,,,,,,2,4,4,4,10,18,21,23,30
+Apeldoorn,Gelderland,,,,,,,,,1,2,2,3,3,7,7,10,11
+Bergeijk,Noord-Brabant,,,,,,,,,1,1,1,1,1,1,1,1,1
+Borsele,Zeeland,,,,,,,,,1,1,1,1,1,2,2,2,3
+Cranendonck,Noord-Brabant,,,,,,,,,1,1,2,2,2,2,5,6,6
+Cuijk,Noord-Brabant,,,,,,,,,1,1,2,2,2,2,2,2,4
+Den Helder,Noord-Holland,,,,,,,,,1,1,1,1,1,1,1,1,2
+Drimmelen,Noord-Brabant,,,,,,,,,1,3,5,5,5,7,11,12,13
+Enschede,Overijssel,,,,,,,,,1,3,3,3,3,3,3,4,7
+Geertruidenberg,Noord-Brabant,,,,,,,,,1,1,1,1,1,3,5,7,7
+Heerlen,Limburg,,,,,,,,,1,2,2,4,5,6,8,14,15
+Heeze-Leende,Noord-Brabant,,,,,,,,,1,1,1,1,1,2,3,4,4
+Hilvarenbeek,Noord-Brabant,,,,,,,,,1,3,5,5,5,4,4,4,4
+Langedijk,Noord-Holland,,,,,,,,,1,1,3,3,4,4,4,4,4
+Lelystad,Flevoland,,,,,,,,,1,1,3,5,7,8,10,12,13
+Purmerend,Noord-Holland,,,,,,,,,1,1,2,2,2,2,2,4,7
+Roosendaal,Noord-Brabant,,,,,,,,,1,1,2,2,5,6,6,6,7
+Smallingerland,Friesland,,,,,,,,,1,1,1,2,3,3,3,3,3
+Son en Breugel,Noord-Brabant,,,,,,,,,1,1,2,2,2,4,4,4,5
+Stein,Limburg,,,,,,,,,1,1,1,3,3,3,3,4,4
+Veere,Zeeland,,,,,,,,,1,1,1,1,1,1,1,1,1
+Woudenberg,Utrecht,,,,,,,,,1,1,1,1,1,1,1,2,2
+Barendrecht,Zuid-Holland,,,,,,,,,,1,1,1,3,3,3,3,4
+Bodegraven-Reeuwijk,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1,1,1
+Boxtel,Noord-Brabant,,,,,,,,,,1,1,2,2,3,5,5,6
+Buren,Gelderland,,,,,,,,,,1,2,2,2,4,4,4,5
+De Fryske Marren,Friesland,,,,,,,,,,1,2,2,3,3,3,5,5
+Eersel,Noord-Brabant,,,,,,,,,,1,1,2,2,2,3,4,4
+Geldrop-Mierlo,Noord-Brabant,,,,,,,,,,1,2,2,2,3,3,3,4
+Groningen,Groningen,,,,,,,,,,2,3,3,6,7,7,11,23
+Harderwijk,Gelderland,,,,,,,,,,2,2,2,2,4,4,5,5
+Hellevoetsluis,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1,1,1
+Hoogeveen,Drenthe,,,,,,,,,,1,1,2,2,2,2,3,3
+Katwijk,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1,2,2
+Krimpen aan den IJssel,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1,1,2
+Landgraaf,Limburg,,,,,,,,,,1,2,4,4,4,4,7,7
+Leeuwarden,Friesland,,,,,,,,,,1,1,1,1,2,3,4,5
+Nieuwkoop,Zuid-Holland,,,,,,,,,,1,1,1,1,1,1,1,1
+Nissewaard,Zuid-Holland,,,,,,,,,,1,1,1,1,1,3,4,7
+Oosterhout,Noord-Brabant,,,,,,,,,,1,3,4,5,6,8,9,9
+Pekela,Groningen,,,,,,,,,,1,1,1,1,1,1,1,1
+Raalte,Overijssel,,,,,,,,,,1,1,1,1,2,3,3,3
+Reimerswaal,Zeeland,,,,,,,,,,1,1,1,1,2,2,3,4
+Súdwest Fryslân,Friesland,,,,,,,,,,1,,,,,,,
+Veenendaal,Utrecht,,,,,,,,,,1,1,1,1,1,1,1,2
+Velsen,Noord-Holland,,,,,,,,,,1,1,1,1,4,4,4,4
+Vlaardingen,Zuid-Holland,,,,,,,,,,1,1,1,1,1,2,2,4
+Vlissingen,Zeeland,,,,,,,,,,2,2,2,2,3,4,4,5
+Boxmeer,Noord-Brabant,,,,,,,,,,,1,1,1,1,1,2,2
+Dordrecht,Zuid-Holland,,,,,,,,,,,1,1,1,1,4,4,8
+Dronten,Flevoland,,,,,,,,,,,2,3,6,7,7,8,9
+Druten,Gelderland,,,,,,,,,,,1,3,5,5,5,5,5
+Duiven,Gelderland,,,,,,,,,,,1,1,1,1,1,2,2
+Elburg,Gelderland,,,,,,,,,,,1,1,1,1,1,1,1
+Gennep,Limburg,,,,,,,,,,,1,1,1,1,1,2,4
+Gilze en Rijen,Noord-Brabant,,,,,,,,,,,1,1,1,1,1,3,5
+Goeree-Overflakkee,Zuid-Holland,,,,,,,,,,,1,1,2,4,5,7,8
+Heemskerk,Noord-Holland,,,,,,,,,,,1,1,1,2,2,2,3
+Heiloo,Noord-Holland,,,,,,,,,,,2,2,2,3,3,3,3
+Horst aan de Maas,Limburg,,,,,,,,,,,2,3,3,5,8,8,10
+Laarbeek,Noord-Brabant,,,,,,,,,,,1,1,1,1,1,2,4
+Moerdijk,Noord-Brabant,,,,,,,,,,,1,1,1,1,1,1,2
+Nederweert,Limburg,,,,,,,,,,,1,3,3,3,5,7,7
+Nunspeet,Gelderland,,,,,,,,,,,1,1,1,2,2,3,3
+Oldebroek,Gelderland,,,,,,,,,,,1,1,1,2,2,5,5
+Súdwest-Fryslân,Friesland,,,,,,,,,,,1,1,1,1,1,2,2
+Wassenaar,Zuid-Holland,,,,,,,,,,,1,2,2,3,3,3,4
+Zwartewaterland,Overijssel,,,,,,,,,,,2,2,2,2,4,4,5
+Alphen-Chaam,Noord-Brabant,,,,,,,,,,,,1,1,2,3,6,6
+Bergen (NH.),Noord-Holland,,,,,,,,,,,,1,1,1,,,
+Bladel,Noord-Brabant,,,,,,,,,,,,1,1,1,1,2,3
+Castricum,Noord-Holland,,,,,,,,,,,,4,5,5,5,5,6
+De Wolden,Drenthe,,,,,,,,,,,,1,1,1,1,1,1
+Eijsden-Margraten,Limburg,,,,,,,,,,,,1,3,4,4,4,4
+Kerkrade,Limburg,,,,,,,,,,,,1,2,2,3,3,3
+Koggenland,Noord-Holland,,,,,,,,,,,,1,1,1,1,1,1
+Maasgouw,Limburg,,,,,,,,,,,,1,2,2,3,4,5
+Maassluis,Zuid-Holland,,,,,,,,,,,,1,1,1,1,2,2
+Noordoostpolder,Flevoland,,,,,,,,,,,,2,2,2,2,2,2
+Oldenzaal,Overijssel,,,,,,,,,,,,1,1,1,1,2,3
+Ommen,Overijssel,,,,,,,,,,,,1,1,1,1,2,2
+Overbetuwe,Gelderland,,,,,,,,,,,,4,6,8,9,9,11
+Sint Anthonis,Noord-Brabant,,,,,,,,,,,,2,2,3,4,5,8
+Someren,Noord-Brabant,,,,,,,,,,,,1,1,1,2,3,3
+Staphorst,Overijssel,,,,,,,,,,,,1,1,1,1,1,2
+Terneuzen,Zeeland,,,,,,,,,,,,1,1,1,2,3,4
+Zandvoort,Noord-Holland,,,,,,,,,,,,1,1,1,1,1,1
+Zwijndrecht,Zuid-Holland,,,,,,,,,,,,2,3,3,4,5,6
+Asten,Noord-Brabant,,,,,,,,,,,,,1,1,2,2,2
+Barneveld,Gelderland,,,,,,,,,,,,,2,3,4,5,6
+Beek,Limburg,,,,,,,,,,,,,3,3,3,3,3
+Dalfsen,Overijssel,,,,,,,,,,,,,1,1,1,1,1
+Deventer,Overijssel,,,,,,,,,,,,,1,2,4,5,5
+Doesburg,Gelderland,,,,,,,,,,,,,1,1,1,1,1
+Ede,Gelderland,,,,,,,,,,,,,1,2,2,5,5
+Gulpen-Wittem,Limburg,,,,,,,,,,,,,1,2,2,2,2
+Haaksbergen,Overijssel,,,,,,,,,,,,,1,1,1,1,1
+Haarlemmermeer,Noord-Holland,,,,,,,,,,,,,1,2,4,4,5
+Heerhugowaard,Noord-Holland,,,,,,,,,,,,,1,1,1,2,2
+Heumen,Gelderland,,,,,,,,,,,,,2,2,3,5,6
+Hof van Twente,Overijssel,,,,,,,,,,,,,1,1,1,3,3
+Midden-Groningen,Groningen,,,,,,,,,,,,,1,1,1,2,2
+Mill en Sint Hubert,Noord-Brabant,,,,,,,,,,,,,1,1,1,1,2
+Molenlanden,Zuid-Holland,,,,,,,,,,,,,1,2,3,7,9
+Nieuwegein,Utrecht,,,,,,,,,,,,,1,1,3,4,6
+Oudewater,Utrecht,,,,,,,,,,,,,1,1,1,1,2
+Rozendaal,Gelderland,,,,,,,,,,,,,1,1,1,2,2
+Rucphen,Noord-Brabant,,,,,,,,,,,,,1,1,1,1,2
+Schiedam,Zuid-Holland,,,,,,,,,,,,,1,1,1,1,2
+Sluis,Zeeland,,,,,,,,,,,,,1,2,2,2,2
+Steenbergen,Noord-Brabant,,,,,,,,,,,,,1,2,2,2,4
+Tholen,Zeeland,,,,,,,,,,,,,1,1,1,2,2
+Westerkwartier,Groningen,,,,,,,,,,,,,1,1,1,1,3
+Westland,Zuid-Holland,,,,,,,,,,,,,1,1,3,6,7
+De Ronde Venen,Utrecht,,,,,,,,,,,,,,2,2,2,2
+Enkhuizen,Noord-Holland,,,,,,,,,,,,,,1,1,1,5
+Epe,Gelderland,,,,,,,,,,,,,,2,2,4,4
+Halderberge,Noord-Brabant,,,,,,,,,,,,,,2,2,2,2
+Harlingen,Friesland,,,,,,,,,,,,,,1,1,1,1
+Heerde,Gelderland,,,,,,,,,,,,,,2,3,3,4
+Hengelo,Overijssel,,,,,,,,,,,,,,3,,,
+Hoorn,Noord-Holland,,,,,,,,,,,,,,1,1,1,2
+Leiderdorp,Zuid-Holland,,,,,,,,,,,,,,1,1,2,2
+Leusden,Utrecht,,,,,,,,,,,,,,1,1,3,4
+Lopik,Utrecht,,,,,,,,,,,,,,1,2,3,3
+Meerssen,Limburg,,,,,,,,,,,,,,1,1,2,2
+Middelburg,Zeeland,,,,,,,,,,,,,,1,1,2,3
+Nijkerk,Gelderland,,,,,,,,,,,,,,1,2,2,2
+Noordenveld,Drenthe,,,,,,,,,,,,,,1,1,1,1
+Oirschot,Noord-Brabant,,,,,,,,,,,,,,1,1,1,1
+Oude IJsselstreek,Gelderland,,,,,,,,,,,,,,1,2,2,2
+Putten,Gelderland,,,,,,,,,,,,,,2,2,2,2
+Rijswijk,Zuid-Holland,,,,,,,,,,,,,,1,2,3,3
+Stede Broec,Noord-Holland,,,,,,,,,,,,,,1,1,1,3
+Teylingen,Zuid-Holland,,,,,,,,,,,,,,1,2,2,2
+Tytsjerksteradiel,Friesland,,,,,,,,,,,,,,1,1,1,1
+Valkenburg aan de Geul,Limburg,,,,,,,,,,,,,,1,2,2,2
+Aa en Hunze,Drenthe,,,,,,,,,,,,,,,0,0,0
+Aalten,Gelderland,,,,,,,,,,,,,,,0,0,0
+Achtkarspelen,Friesland,,,,,,,,,,,,,,,0,0,0
+Alblasserdam,Zuid-Holland,,,,,,,,,,,,,,,1,1,2
+Ameland,Friesland,,,,,,,,,,,,,,,0,0,0
+Appingedam,Groningen,,,,,,,,,,,,,,,0,0,0
+Assen,Drenthe,,,,,,,,,,,,,,,0,0,0
+Baarle-Nassau,Noord-Brabant,,,,,,,,,,,,,,,0,0,0
+Baarn,Utrecht,,,,,,,,,,,,,,,0,0,2
+Beemster,Noord-Holland,,,,,,,,,,,,,,,0,0,0
+Beesel,Limburg,,,,,,,,,,,,,,,0,0,0
+Bergen (L),Limburg,,,,,,,,,,,,,,,0,1,1
+Bergen (NH),Noord-Holland,,,,,,,,,,,,,,,1,2,4
+Berkelland,Gelderland,,,,,,,,,,,,,,,0,0,1
+Borger-Odoorn,Drenthe,,,,,,,,,,,,,,,0,0,0
+Brielle,Zuid-Holland,,,,,,,,,,,,,,,0,0,1
+Brummen,Gelderland,,,,,,,,,,,,,,,0,0,1
+Brunssum,Limburg,,,,,,,,,,,,,,,2,4,4
+Bunnik,Utrecht,,,,,,,,,,,,,,,0,0,1
+Bunschoten,Utrecht,,,,,,,,,,,,,,,0,0,0
+Capelle aan den IJssel,Zuid-Holland,,,,,,,,,,,,,,,1,1,2
+Dantumadiel,Friesland,,,,,,,,,,,,,,,0,0,0
+Delfzijl,Groningen,,,,,,,,,,,,,,,0,0,0
+Doetinchem,Gelderland,,,,,,,,,,,,,,,0,0,3
+Drechterland,Noord-Holland,,,,,,,,,,,,,,,0,0,0
+Echt-Susteren,Limburg,,,,,,,,,,,,,,,2,6,6
+Edam-Volendam,Noord-Holland,,,,,,,,,,,,,,,0,0,3
+Eemnes,Utrecht,,,,,,,,,,,,,,,0,1,1
+Gorinchem,Zuid-Holland,,,,,,,,,,,,,,,0,0,1
+Grave,Noord-Brabant,,,,,,,,,,,,,,,0,1,2
+Hardenberg,Overijssel,,,,,,,,,,,,,,,0,0,0
+Hattem,Gelderland,,,,,,,,,,,,,,,0,0,0
+Heerenveen,Friesland,,,,,,,,,,,,,,,0,0,0
+Hendrik-Ido-Ambacht,Zuid-Holland,,,,,,,,,,,,,,,0,0,0
+Hengelo (O),Overijssel,,,,,,,,,,,,,,,3,4,4
+Het Hogeland,Groningen,,,,,,,,,,,,,,,0,0,0
+Hillegom,Zuid-Holland,,,,,,,,,,,,,,,0,1,1
+Hilversum,Noord-Holland,,,,,,,,,,,,,,,3,3,3
+Hollands Kroon,Noord-Holland,,,,,,,,,,,,,,,0,1,3
+Hulst,Zeeland,,,,,,,,,,,,,,,0,0,0
+Kaag en Braassem,Zuid-Holland,,,,,,,,,,,,,,,0,0,1
+Kampen,Overijssel,,,,,,,,,,,,,,,1,2,2
+Kapelle,Zeeland,,,,,,,,,,,,,,,1,2,2
+Laren,Noord-Holland,,,,,,,,,,,,,,,0,0,0
+Lisse,Zuid-Holland,,,,,,,,,,,,,,,0,0,0
+Lochem,Gelderland,,,,,,,,,,,,,,,0,1,1
+Loppersum,Groningen,,,,,,,,,,,,,,,0,0,0
+Losser,Overijssel,,,,,,,,,,,,,,,0,0,0
+Medemblik,Noord-Holland,,,,,,,,,,,,,,,0,0,0
+Meppel,Drenthe,,,,,,,,,,,,,,,0,0,0
+Midden-Delfland,Zuid-Holland,,,,,,,,,,,,,,,0,0,1
+Midden-Drenthe,Drenthe,,,,,,,,,,,,,,,0,0,1
+Montferland,Gelderland,,,,,,,,,,,,,,,0,1,1
+Montfoort,Utrecht,,,,,,,,,,,,,,,0,0,0
+Mook en Middelaar,Limburg,,,,,,,,,,,,,,,0,0,1
+Noardeast-Fryslân,Friesland,,,,,,,,,,,,,,,0,0,1
+Noord-Beveland,Zeeland,,,,,,,,,,,,,,,0,0,0
+Oldambt,Groningen,,,,,,,,,,,,,,,0,0,0
+Olst-Wijhe,Overijssel,,,,,,,,,,,,,,,0,0,0
+Oost Gelre,Gelderland,,,,,,,,,,,,,,,0,0,0
+Ooststellingwerf,Friesland,,,,,,,,,,,,,,,0,0,0
+Oostzaan,Noord-Holland,,,,,,,,,,,,,,,1,2,2
+Opmeer,Noord-Holland,,,,,,,,,,,,,,,0,0,0
+Ouder-Amstel,Noord-Holland,,,,,,,,,,,,,,,2,3,3
+Papendrecht,Zuid-Holland,,,,,,,,,,,,,,,0,0,1
+Renswoude,Utrecht,,,,,,,,,,,,,,,0,0,0
+Reusel-De Mierden,Noord-Brabant,,,,,,,,,,,,,,,0,0,0
+Rhenen,Utrecht,,,,,,,,,,,,,,,0,0,0
+Rijssen-Holten,Overijssel,,,,,,,,,,,,,,,0,0,0
+Roerdalen,Limburg,,,,,,,,,,,,,,,0,1,1
+Scherpenzeel,Gelderland,,,,,,,,,,,,,,,0,0,0
+Schiermonnikoog,Friesland,,,,,,,,,,,,,,,0,0,0
+Sliedrecht,Zuid-Holland,,,,,,,,,,,,,,,1,1,1
+Stadskanaal,Groningen,,,,,,,,,,,,,,,0,0,0
+Steenwijkerland,Overijssel,,,,,,,,,,,,,,,1,1,1
+Terschelling,Friesland,,,,,,,,,,,,,,,0,0,0
+Texel,Noord-Holland,,,,,,,,,,,,,,,0,0,2
+Twenterand,Overijssel,,,,,,,,,,,,,,,0,0,0
+Tynaarlo,Drenthe,,,,,,,,,,,,,,,1,3,4
+Uitgeest,Noord-Holland,,,,,,,,,,,,,,,0,0,0
+Uithoorn,Noord-Holland,,,,,,,,,,,,,,,0,1,2
+Urk,Flevoland,,,,,,,,,,,,,,,0,1,4
+Vaals,Limburg,,,,,,,,,,,,,,,0,0,0
+Valkenswaard,Noord-Brabant,,,,,,,,,,,,,,,0,1,1
+Veendam,Groningen,,,,,,,,,,,,,,,0,0,0
+Venray,Limburg,,,,,,,,,,,,,,,0,1,3
+Vlieland,Friesland,,,,,,,,,,,,,,,0,0,0
+Voerendaal,Limburg,,,,,,,,,,,,,,,1,3,3
+Voorschoten,Zuid-Holland,,,,,,,,,,,,,,,0,1,1
+Waadhoeke,Friesland,,,,,,,,,,,,,,,0,0,0
+Wageningen,Gelderland,,,,,,,,,,,,,,,1,1,1
+Weert,Limburg,,,,,,,,,,,,,,,0,0,0
+Weesp,Noord-Holland,,,,,,,,,,,,,,,0,0,0
+Westerveld,Drenthe,,,,,,,,,,,,,,,0,0,0
+Westervoort,Gelderland,,,,,,,,,,,,,,,0,0,0
+Westerwolde,Groningen,,,,,,,,,,,,,,,0,0,0
+Weststellingwerf,Friesland,,,,,,,,,,,,,,,0,0,0
+Wierden,Overijssel,,,,,,,,,,,,,,,0,0,0
+Wijdemeren,Noord-Holland,,,,,,,,,,,,,,,0,1,1
+Winterswijk,Gelderland,,,,,,,,,,,,,,,0,0,0
+Woensdrecht,Noord-Brabant,,,,,,,,,,,,,,,0,0,0
+Wormerland,Noord-Holland,,,,,,,,,,,,,,,0,0,1
+Zevenaar,Gelderland,,,,,,,,,,,,,,,0,2,3
+Zoetermeer,Zuid-Holland,,,,,,,,,,,,,,,0,1,1
+Zoeterwoude,Zuid-Holland,,,,,,,,,,,,,,,0,0,0
+Zuidplas,Zuid-Holland,,,,,,,,,,,,,,,0,0,0
+Zutphen,Gelderland,,,,,,,,,,,,,,,1,1,1
