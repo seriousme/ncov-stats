@@ -118,14 +118,14 @@ function timeToDouble(data,key) {
     let total;
     const item={}
     item[key]=el[key];
-    item.count=1;
+    item.days=1;
     dates.slice().reverse().forEach(current => {
       if (typeof (total) === "undefined") {
         total = el[current];
         return;
       }
       if (el[current] && (total / el[current] < 2)) {
-        item.count++;
+        item.days++;
       }
     });
     result.push(item);
