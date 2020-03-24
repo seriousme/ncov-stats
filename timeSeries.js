@@ -178,7 +178,7 @@ function placesPerProvince(data) {
 
 function rowToColumn(data,key){
   const result=[];
-  dates.forEach(date => {
+  dates.slice().reverse().forEach(date => {
     const item={
       date
     };
