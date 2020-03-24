@@ -176,6 +176,20 @@ function placesPerProvince(data) {
   return Object.values(results);
 }
 
+function rowToColumn(data,key){
+  const result=[];
+  dates.forEach(date => {
+    const item={
+      date
+    };
+    data.forEach(el => {
+      item[el[key]]=el[date];
+    });
+    result.push(item);
+  });
+  return result;
+}
+
 function writeResults(data, name) {
   fs.writeFile(`./results/${name}.csv`, Papa.unparse(data), () => { });
   fs.writeFile(`./results/${name}.json`, JSON.stringify(data), () => { });
@@ -199,10 +213,10 @@ fs.readdir(datadir, (err, files) => {
   const results = Object.values(resultsByPlace);
   writeResults(results, "timeseries");
   const npp = numbersPerProvince(results);
-  writeResults(npp, "numbersPerProvince");
-  writeResults(placesPerProvince(results), "placesPerProvince");
+  writeResults(rowToColumn(npp,'Provincie'), "numbersPerProvince");
+  writeResults(rowToColumn(placesPerProvince(results),'Provincie'), "placesPerProvince");
   writeResults(stats(results), "stats");
   writeResults(progression(results), "progression");
-  writeResults(progressionPerProvince(npp), "progressionPerProvince");
+  writeResults(rowToColumn(progressionPerProvince(npp),'Provincie'), "progressionPerProvince");
   writeResults(timeToDouble(npp,'Provincie'),"time2doublePerProvince");
 });
