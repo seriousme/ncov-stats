@@ -82,7 +82,7 @@ function progression(data) {
     before = current;
     totalBefore = total;
   });
-  return results;
+  return results.reverse();
 }
 
 function progressionPerProvince(numbersPerProvince) {
