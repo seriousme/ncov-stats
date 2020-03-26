@@ -157,7 +157,7 @@ function stats(data) {
     before = current;
     results.push(stats);
   });
-  return results;
+  return results.reverse();
 }
 
 function placesPerProvince(data) {
