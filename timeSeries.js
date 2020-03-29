@@ -2,7 +2,10 @@ const Papa = require("papaparse");
 const fs = require("fs");
 const placeData = require("./TypedDataSet.json");
 const dates = [];
-const datadir = "./data"
+const datadir = "./data";
+const renamedPlaces = {
+  "s-Gravenhage": "'s-Gravenhage"
+}
 
 const places = placeData.value.reduce(
   (map, obj) => ((map[obj.Naam_2.trim()] = obj.Naam_4.trim()), map),
@@ -29,6 +32,9 @@ function getData(file, date) {
   }).data;
   parsedData.forEach(el => {
     if (el.Aantal !== null && el.Gemeente !== undefined) {
+      if (renamedPlaces[el.Gemeente]) {
+        el.Gemeente = renamedPlaces[el.Gemeente];
+      }
       if (!places[el.Gemeente]) {
         console.log(`Geen provincie voor:${el.Gemeente}:`);
       }
@@ -111,14 +117,14 @@ function progressionPerProvince(numbersPerProvince) {
   return results;
 }
 
-function timeToDouble(data,key) {
+function timeToDouble(data, key) {
   const result = [];
 
   data.forEach(el => {
     let total;
-    const item={}
-    item[key]=el[key];
-    item.days=1;
+    const item = {}
+    item[key] = el[key];
+    item.days = 1;
     dates.slice().reverse().forEach(current => {
       if (typeof (total) === "undefined") {
         total = el[current];
@@ -176,14 +182,14 @@ function placesPerProvince(data) {
   return Object.values(results);
 }
 
-function rowToColumn(data,key){
-  const result=[];
+function rowToColumn(data, key) {
+  const result = [];
   dates.slice().reverse().forEach(date => {
-    const item={
+    const item = {
       date
     };
     data.forEach(el => {
-      item[el[key]]=el[date];
+      item[el[key]] = el[date];
     });
     result.push(item);
   });
@@ -213,10 +219,10 @@ fs.readdir(datadir, (err, files) => {
   const results = Object.values(resultsByPlace);
   writeResults(results, "timeseries");
   const npp = numbersPerProvince(results);
-  writeResults(rowToColumn(npp,'Provincie'), "numbersPerProvince");
-  writeResults(rowToColumn(placesPerProvince(results),'Provincie'), "placesPerProvince");
+  writeResults(rowToColumn(npp, 'Provincie'), "numbersPerProvince");
+  writeResults(rowToColumn(placesPerProvince(results), 'Provincie'), "placesPerProvince");
   writeResults(stats(results), "stats");
   writeResults(progression(results), "progression");
-  writeResults(rowToColumn(progressionPerProvince(npp),'Provincie'), "progressionPerProvince");
-  writeResults(timeToDouble(npp,'Provincie'),"time2doublePerProvince");
+  writeResults(rowToColumn(progressionPerProvince(npp), 'Provincie'), "progressionPerProvince");
+  writeResults(timeToDouble(npp, 'Provincie'), "time2doublePerProvince");
 });
