@@ -4,6 +4,12 @@ Dutch stats on the 2020 Corona virus (SARS-CoV-2) spread based on [RIVM](https:/
 RIVM source data is the data folder.
 The calculated stats are in the results folder.
 
+## Change in reporting 
+RIVM used to report positively tested cases but switched to hospitalizations on 31 March 2020. Therefore the hospitalization stats are available from 31 March onwards.
+
+The source data before March 31 is available in the cases-data folder.
+The stats data before March 31 is available in the cases-results folder.
+
 ## Available statistics
 The following stats are available:
 * [time series](results/timeseries.csv) An overview of cases per community over time.
