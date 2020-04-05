@@ -4,7 +4,9 @@ const placeData = require("./TypedDataSet.json");
 const dates = [];
 const datadir = "./data";
 const renamedPlaces = {
-  "s-Gravenhage": "'s-Gravenhage"
+  "s-Gravenhage": "'s-Gravenhage",
+  "Noardeast-FryslÃ¢n":'Noardeast-Fryslân',
+  "SÃºdwest-FryslÃ¢n":'Súdwest Fryslân'
 }
 
 const places = placeData.value.reduce(
