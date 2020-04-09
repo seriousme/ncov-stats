@@ -29,6 +29,8 @@ function getData(file, date) {
     header: true,
     dynamicTyping: true,
     transformHeader: (h) => {
+      h=h.replace('Zkh opname', 'Aantal');
+      
       return h.replace('﻿"Category"', 'Gemeente')
     }
   }).data;
