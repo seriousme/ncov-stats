@@ -5,8 +5,8 @@ const dates = [];
 const datadir = "./data";
 const renamedPlaces = {
   "s-Gravenhage": "'s-Gravenhage",
-  "Noardeast-FryslÃ¢n":'Noardeast-Fryslân',
-  "SÃºdwest-FryslÃ¢n":'Súdwest Fryslân'
+  "Noardeast-FryslÃ¢n": 'Noardeast-Fryslân',
+  "SÃºdwest-FryslÃ¢n": 'Súdwest Fryslân'
 }
 
 const places = placeData.value.reduce(
@@ -29,8 +29,8 @@ function getData(file, date) {
     header: true,
     dynamicTyping: true,
     transformHeader: (h) => {
-      h=h.replace('Zkh opname', 'Aantal');
-      
+      h = h.replace('Zkh opname', 'Aantal');
+
       return h.replace('﻿"Category"', 'Gemeente')
     }
   }).data;
@@ -200,6 +200,17 @@ function rowToColumn(data, key) {
   return result;
 }
 
+function reverseDates(data, indexes) {
+  const keys = indexes.concat(dates.slice().reverse());
+  return data.map(el => {
+    const result={};
+    keys.forEach(key => {
+      result[key] = el[key];
+    });
+    return result;
+  });
+}
+
 function writeResults(data, name) {
   fs.writeFile(`./results/${name}.csv`, Papa.unparse(data), () => { });
   fs.writeFile(`./results/${name}.json`, JSON.stringify(data), () => { });
@@ -221,7 +232,7 @@ fs.readdir(datadir, (err, files) => {
   }
   );
   const results = Object.values(resultsByPlace);
-  writeResults(results, "timeseries");
+  writeResults(reverseDates(results, ['Gemeente', 'Provincie']), "timeseries");
   const npp = numbersPerProvince(results);
   writeResults(rowToColumn(npp, 'Provincie'), "numbersPerProvince");
   writeResults(rowToColumn(placesPerProvince(results), 'Provincie'), "placesPerProvince");
