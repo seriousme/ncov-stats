@@ -21,7 +21,7 @@ jobs:
          run: npm start
        - run: date > datelog.txt && git add datelog.txt
        - name: push changes to remote
-       - run: |
+         run: |
           git add data results
           git \
           -c user.name="GitHub Actions" \
