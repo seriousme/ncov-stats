@@ -27,5 +27,5 @@ jobs:
           -c user.name="GitHub Actions" \
           -c user.email="actions@github.com" \
           commit -m "added data for `date +%F`" \
-          --author "${{ github.actor }}@users.noreply.github.com"
+          --author "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
           git push
