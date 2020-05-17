@@ -1,8 +1,8 @@
 name: Updater
 
 on:
-  watch:
-    types: [started]
+  schedule:
+    - cron:  '0 18 * * *'
 
 jobs:
   build:
@@ -13,13 +13,10 @@ jobs:
     steps:
        - name: Checkout repository
          uses: actions/checkout@v2
-         with:
-          ref: test-branch
        - name: Install dependencies
          run: npm install
        - name: Get new data and update stats
          run: npm start
-       - run: date > datelog.txt && git add datelog.txt
        - name: push changes to remote
          run: |
           git add data results
