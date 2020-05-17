@@ -30,7 +30,7 @@ function getData(file, date) {
     dynamicTyping: true,
     transformHeader: (h) => {
       h = h.replace('Zkh opname', 'Aantal');
-
+      //h = h.replace('Meldingen', 'Aantal');
       return h.replace('﻿"Category"', 'Gemeente')
     }
   }).data;
@@ -40,7 +40,7 @@ function getData(file, date) {
         el.Gemeente = renamedPlaces[el.Gemeente];
       }
       if (!places[el.Gemeente]) {
-        console.log(`Geen provincie voor:${el.Gemeente}:`);
+        throw Error(`Geen provincie voor:${el.Gemeente}:`);
       }
       resultsByPlace[el.Gemeente] = resultsByPlace[el.Gemeente] || {
         Gemeente: el.Gemeente,
@@ -186,6 +186,27 @@ function placesPerProvince(data) {
   return Object.values(results);
 }
 
+function newCases(data) {
+  const revDates = dates.slice().reverse();
+  return data.filter(el => (el[revDates[0]] > el[revDates[1]]))
+    .map(el => ({
+      Gemeente: el.Gemeente,
+      Provincie: el.Provincie,
+      Aantal: el[revDates[0]] - el[revDates[1]]
+    }))
+}
+
+function changed(data) {
+  const revDates = dates.slice().reverse();
+  const lastDate = revDates.shift();
+  return revDates
+    .map(date => ({
+      Datum:date, Aantal: data
+        .filter(el => (el[lastDate] > el[date]))
+        .length
+    }))
+}
+
 function rowToColumn(data, key) {
   const result = [];
   dates.slice().reverse().forEach(date => {
@@ -203,7 +224,7 @@ function rowToColumn(data, key) {
 function reverseDates(data, indexes) {
   const keys = indexes.concat(dates.slice().reverse());
   return data.map(el => {
-    const result={};
+    const result = {};
     keys.forEach(key => {
       result[key] = el[key];
     });
@@ -232,7 +253,8 @@ fs.readdir(datadir, (err, files) => {
   }
   );
   const results = Object.values(resultsByPlace);
-  writeResults(reverseDates(results, ['Gemeente', 'Provincie']), "timeseries");
+  const revResults = reverseDates(results, ['Gemeente', 'Provincie']);
+  writeResults(revResults, "timeseries");
   const npp = numbersPerProvince(results);
   writeResults(rowToColumn(npp, 'Provincie'), "numbersPerProvince");
   writeResults(rowToColumn(placesPerProvince(results), 'Provincie'), "placesPerProvince");
@@ -240,4 +262,6 @@ fs.readdir(datadir, (err, files) => {
   writeResults(progression(results), "progression");
   writeResults(rowToColumn(progressionPerProvince(npp), 'Provincie'), "progressionPerProvince");
   writeResults(timeToDouble(npp, 'Provincie'), "time2doublePerProvince");
+  writeResults(changed(revResults), "changed");
+  writeResults(newCases(revResults), "newCases");
 });

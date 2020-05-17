@@ -1,0 +1,26 @@
+{
+  "name": "ncov-stats",
+  "version": "1.0.0",
+  "description": "Dutch stats on the 2020 Corona virus (SARS-CoV-2) spread based on [RIVM](https://www.rivm.nl/) data",
+  "main": "timeSeries.js",
+  "dependencies": {
+    "papaparse": "^5.1.1"
+  },
+  "devDependencies": {
+    "jsdom": "^16.2.2"
+  },
+  "scripts": {
+    "prestart": "node getData.js",
+    "start": "node timeSeries.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seriousme/ncov-stats.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seriousme/ncov-stats/issues"
+  },
+  "homepage": "https://github.com/seriousme/ncov-stats#readme"
+}
