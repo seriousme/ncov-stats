@@ -2,8 +2,7 @@ const jsdom = require("jsdom");
 const fs = require('fs');
 const { JSDOM } = jsdom;
 const URL = 'https://www.rivm.nl/coronavirus-covid-19/actueel';
-const validHeaderStart = "Gem;Gemeente;Meldingen;Zkh opname;";
-//const validHeaderStart = "Gemnr;Gemeente;Meldingen;Zkh opname;";
+const validHeaderStart = "Gemnr;Gemeente;Meldingen;Zkh opname;";
 
 const zeroPad = (num, places) => String(num).padStart(places, '0')
 const d = new Date();
