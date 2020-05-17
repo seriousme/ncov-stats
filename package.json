@@ -14,6 +14,7 @@
     "start": "node timeSeries.js",
     "precommit": "git add data results",
     "commit": "git commit -m \"added data for `date +%F`\"",
+    "postcommit": "git push",
     "publish": "npm run start && npm run commit"
   },
   "repository": {
