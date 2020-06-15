@@ -11,7 +11,7 @@ const today = zeroPad(d.getDate(), 2) + zeroPad((d.getMonth() + 1), 2) + d.getFu
 const csvFileName = `./data/hospitals-${today}.csv`;
 
 console.log('Fetching data from:', URL);
-const { document } = JSDOM.fromURL(URL)
+JSDOM.fromURL(URL)
     .then(dom => {
         const document = dom.window.document;
         const modificationDate = document.querySelector(".content-date-edited").textContent.trim();
