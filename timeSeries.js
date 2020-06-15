@@ -30,6 +30,7 @@ function getData(file, date) {
     dynamicTyping: true,
     transformHeader: (h) => {
       h = h.replace('Zkh opname', 'Aantal');
+      h = h.replace('Zkh_Absoluut', 'Aantal'); 
       //h = h.replace('Meldingen', 'Aantal');
       return h.replace('﻿"Category"', 'Gemeente')
     }
