@@ -2,13 +2,11 @@ const jsdom = require("jsdom");
 const fs = require('fs');
 const { JSDOM } = jsdom;
 const URL = 'https://www.rivm.nl/coronavirus-covid-19/actueel';
-//const validHeaderStart = "Gemnr;Gemeente;Meldingen;Zkh opname;";
-const validHeaderStart = "Gemnr;Gemeente;Totaal_Absoluut;Zkh_Absoluut;";
 
 const zeroPad = (num, places) => String(num).padStart(places, '0')
 const d = new Date();
 const today = zeroPad(d.getDate(), 2) + zeroPad((d.getMonth() + 1), 2) + d.getFullYear();
-const csvFileName = `./data/hospitals-${today}.csv`;
+const csvFileName = `./newData/hospitals-${today}.csv`;
 
 console.log('Fetching data from:', URL);
 JSDOM.fromURL(URL)
@@ -17,7 +15,9 @@ JSDOM.fromURL(URL)
         const modificationDate = document.querySelector(".content-date-edited").textContent.trim();
         const csvData = document.querySelector("#csvData").textContent.trim();
         console.log(modificationDate);
-        if (csvData.startsWith(validHeaderStart)) {
+        if (csvData.includes(";Gemeente;") &&
+            csvData.includes(";Zkh_Absoluut;")
+        ) {
             fs.writeFile(csvFileName, csvData, (err) => {
                 if (err) throw err;
                 console.log(`The csvdata has been saved to ${csvFileName}`);
