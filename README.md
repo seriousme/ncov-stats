@@ -11,7 +11,7 @@ The source data before March 31 is available in the cases-data folder.
 The stats data before March 31 is available in the cases-results folder.
 
 ## Another change in reporting
-RIVM changed the reporting again on 16 June 2020 and is now reporting on time intervals. For now this means no more updated results in this repository.
+RIVM changed the reporting again on 16 June 2020 and is now reporting on time intervals. So most of statistics can now be found on the RIVM site and the updating of the statistics in this repository has stopped.
 
 ## Available statistics
 The following stats are available:
