@@ -4,7 +4,7 @@
   "description": "Dutch stats on the 2020 Corona virus (SARS-CoV-2) spread based on [RIVM](https://www.rivm.nl/) data",
   "main": "timeSeries.js",
   "dependencies": {
-    "papaparse": "^5.1.1"
+    "papaparse": "^5.2.0"
   },
   "devDependencies": {
     "jsdom": "^16.2.2"
